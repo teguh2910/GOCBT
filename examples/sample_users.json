@@ -1,0 +1,232 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "email": "admin@gocbt.example.com",
+      "password": "Admin123!",
+      "first_name": "System",
+      "last_name": "Administrator",
+      "role": "admin"
+    },
+    {
+      "username": "teacher1",
+      "email": "teacher1@gocbt.example.com",
+      "password": "Teacher123!",
+      "first_name": "Sarah",
+      "last_name": "Johnson",
+      "role": "teacher"
+    },
+    {
+      "username": "teacher2",
+      "email": "teacher2@gocbt.example.com",
+      "password": "Teacher123!",
+      "first_name": "Michael",
+      "last_name": "Brown",
+      "role": "teacher"
+    },
+    {
+      "username": "teacher3",
+      "email": "teacher3@gocbt.example.com",
+      "password": "Teacher123!",
+      "first_name": "Emily",
+      "last_name": "Davis",
+      "role": "teacher"
+    },
+    {
+      "username": "student1",
+      "email": "student1@gocbt.example.com",
+      "password": "Student123!",
+      "first_name": "John",
+      "last_name": "Smith",
+      "role": "student"
+    },
+    {
+      "username": "student2",
+      "email": "student2@gocbt.example.com",
+      "password": "Student123!",
+      "first_name": "Emma",
+      "last_name": "Wilson",
+      "role": "student"
+    },
+    {
+      "username": "student3",
+      "email": "student3@gocbt.example.com",
+      "password": "Student123!",
+      "first_name": "James",
+      "last_name": "Taylor",
+      "role": "student"
+    },
+    {
+      "username": "student4",
+      "email": "student4@gocbt.example.com",
+      "password": "Student123!",
+      "first_name": "Olivia",
+      "last_name": "Anderson",
+      "role": "student"
+    },
+    {
+      "username": "student5",
+      "email": "student5@gocbt.example.com",
+      "password": "Student123!",
+      "first_name": "William",
+      "last_name": "Thomas",
+      "role": "student"
+    },
+    {
+      "username": "student6",
+      "email": "student6@gocbt.example.com",
+      "password": "Student123!",
+      "first_name": "Sophia",
+      "last_name": "Jackson",
+      "role": "student"
+    },
+    {
+      "username": "student7",
+      "email": "student7@gocbt.example.com",
+      "password": "Student123!",
+      "first_name": "Benjamin",
+      "last_name": "White",
+      "role": "student"
+    },
+    {
+      "username": "student8",
+      "email": "student8@gocbt.example.com",
+      "password": "Student123!",
+      "first_name": "Isabella",
+      "last_name": "Harris",
+      "role": "student"
+    },
+    {
+      "username": "student9",
+      "email": "student9@gocbt.example.com",
+      "password": "Student123!",
+      "first_name": "Lucas",
+      "last_name": "Martin",
+      "role": "student"
+    },
+    {
+      "username": "student10",
+      "email": "student10@gocbt.example.com",
+      "password": "Student123!",
+      "first_name": "Mia",
+      "last_name": "Garcia",
+      "role": "student"
+    }
+  ],
+  "login_credentials": {
+    "admin": {
+      "username": "admin",
+      "password": "Admin123!",
+      "role": "Administrator",
+      "description": "Full system access, user management, system configuration"
+    },
+    "teachers": [
+      {
+        "username": "teacher1",
+        "password": "Teacher123!",
+        "name": "Sarah Johnson",
+        "description": "Can create tests, manage students, view results"
+      },
+      {
+        "username": "teacher2",
+        "password": "Teacher123!",
+        "name": "Michael Brown",
+        "description": "Can create tests, manage students, view results"
+      },
+      {
+        "username": "teacher3",
+        "password": "Teacher123!",
+        "name": "Emily Davis",
+        "description": "Can create tests, manage students, view results"
+      }
+    ],
+    "students": [
+      {
+        "username": "student1",
+        "password": "Student123!",
+        "name": "John Smith",
+        "description": "Can take tests, view own results"
+      },
+      {
+        "username": "student2",
+        "password": "Student123!",
+        "name": "Emma Wilson",
+        "description": "Can take tests, view own results"
+      },
+      {
+        "username": "student3",
+        "password": "Student123!",
+        "name": "James Taylor",
+        "description": "Can take tests, view own results"
+      },
+      {
+        "username": "student4",
+        "password": "Student123!",
+        "name": "Olivia Anderson",
+        "description": "Can take tests, view own results"
+      },
+      {
+        "username": "student5",
+        "password": "Student123!",
+        "name": "William Thomas",
+        "description": "Can take tests, view own results"
+      },
+      {
+        "username": "student6",
+        "password": "Student123!",
+        "name": "Sophia Jackson",
+        "description": "Can take tests, view own results"
+      },
+      {
+        "username": "student7",
+        "password": "Student123!",
+        "name": "Benjamin White",
+        "description": "Can take tests, view own results"
+      },
+      {
+        "username": "student8",
+        "password": "Student123!",
+        "name": "Isabella Harris",
+        "description": "Can take tests, view own results"
+      },
+      {
+        "username": "student9",
+        "password": "Student123!",
+        "name": "Lucas Martin",
+        "description": "Can take tests, view own results"
+      },
+      {
+        "username": "student10",
+        "password": "Student123!",
+        "name": "Mia Garcia",
+        "description": "Can take tests, view own results"
+      }
+    ]
+  },
+  "usage_instructions": {
+    "setup": [
+      "1. Start the GoCBT application",
+      "2. Use the admin account to set up the system",
+      "3. Teachers can log in to create tests and questions",
+      "4. Students can log in to take available tests"
+    ],
+    "demo_scenario": [
+      "1. Login as teacher1 to create a sample test",
+      "2. Add questions to the test",
+      "3. Set test availability times",
+      "4. Login as student1 to take the test",
+      "5. Complete the test and view results",
+      "6. Login as teacher1 to view student results and analytics"
+    ],
+    "password_policy": {
+      "minimum_length": 8,
+      "requirements": [
+        "At least one uppercase letter",
+        "At least one lowercase letter", 
+        "At least one digit",
+        "At least one special character"
+      ],
+      "note": "All sample passwords follow this policy"
+    }
+  }
+}

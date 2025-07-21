@@ -1,0 +1,60 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - APP_ENV=development
+      - DB_DRIVER=sqlite
+      - DB_FILEPATH=/data/gocbt.db
+      - JWT_SECRET=your-secret-key-change-in-production
+    volumes:
+      - ./data:/data
+    depends_on:
+      - postgres
+    networks:
+      - gocbt-network
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_DB=gocbt
+      - POSTGRES_USER=gocbt
+      - POSTGRES_PASSWORD=gocbt_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - gocbt-network
+
+  # For production with PostgreSQL
+  app-prod:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - APP_ENV=production
+      - DB_DRIVER=postgres
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USER=gocbt
+      - DB_PASSWORD=gocbt_password
+      - DB_NAME=gocbt
+      - DB_SSLMODE=disable
+      - JWT_SECRET=your-secret-key-change-in-production
+    depends_on:
+      - postgres
+    networks:
+      - gocbt-network
+    profiles:
+      - production
+
+volumes:
+  postgres_data:
+
+networks:
+  gocbt-network:
+    driver: bridge

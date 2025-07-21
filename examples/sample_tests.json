@@ -1,0 +1,332 @@
+{
+  "tests": [
+    {
+      "title": "Mathematics Quiz - Algebra Basics",
+      "description": "Test your understanding of basic algebraic concepts including linear equations, expressions, and problem solving.",
+      "instructions": "Read each question carefully. Show your work where applicable. You have 60 minutes to complete this test. Calculator is not allowed.",
+      "duration_minutes": 60,
+      "total_marks": 100,
+      "passing_marks": 60,
+      "subject": "Mathematics",
+      "grade_level": "9th Grade",
+      "questions": [
+        {
+          "question_text": "What is the value of x in the equation 2x + 5 = 13?",
+          "question_type": "multiple_choice",
+          "marks": 5,
+          "options": [
+            {"option_text": "3", "is_correct": false},
+            {"option_text": "4", "is_correct": true},
+            {"option_text": "5", "is_correct": false},
+            {"option_text": "6", "is_correct": false}
+          ],
+          "explanation": "Subtract 5 from both sides: 2x = 8, then divide by 2: x = 4"
+        },
+        {
+          "question_text": "Simplify the expression: 3(x + 4) - 2x",
+          "question_type": "multiple_choice",
+          "marks": 5,
+          "options": [
+            {"option_text": "x + 12", "is_correct": true},
+            {"option_text": "5x + 12", "is_correct": false},
+            {"option_text": "x + 6", "is_correct": false},
+            {"option_text": "3x + 2", "is_correct": false}
+          ],
+          "explanation": "Distribute: 3x + 12 - 2x = x + 12"
+        },
+        {
+          "question_text": "If y = 2x + 3, what is the value of y when x = 4?",
+          "question_type": "multiple_choice",
+          "marks": 5,
+          "options": [
+            {"option_text": "8", "is_correct": false},
+            {"option_text": "10", "is_correct": false},
+            {"option_text": "11", "is_correct": true},
+            {"option_text": "12", "is_correct": false}
+          ],
+          "explanation": "Substitute x = 4: y = 2(4) + 3 = 8 + 3 = 11"
+        },
+        {
+          "question_text": "Solve for x: x² - 5x + 6 = 0",
+          "question_type": "multiple_choice",
+          "marks": 10,
+          "options": [
+            {"option_text": "x = 2, x = 3", "is_correct": true},
+            {"option_text": "x = 1, x = 6", "is_correct": false},
+            {"option_text": "x = -2, x = -3", "is_correct": false},
+            {"option_text": "No real solutions", "is_correct": false}
+          ],
+          "explanation": "Factor: (x - 2)(x - 3) = 0, so x = 2 or x = 3"
+        },
+        {
+          "question_text": "The slope of a line passing through points (2, 3) and (4, 7) is:",
+          "question_type": "multiple_choice",
+          "marks": 5,
+          "options": [
+            {"option_text": "1", "is_correct": false},
+            {"option_text": "2", "is_correct": true},
+            {"option_text": "3", "is_correct": false},
+            {"option_text": "4", "is_correct": false}
+          ],
+          "explanation": "Slope = (y₂ - y₁)/(x₂ - x₁) = (7 - 3)/(4 - 2) = 4/2 = 2"
+        }
+      ]
+    },
+    {
+      "title": "Science Test - Physics Fundamentals",
+      "description": "Comprehensive test covering basic physics principles including mechanics, forces, and energy.",
+      "instructions": "Answer all questions. Use the formula sheet provided. Calculator is allowed for numerical problems. Show your work for full credit.",
+      "duration_minutes": 90,
+      "total_marks": 150,
+      "passing_marks": 90,
+      "subject": "Physics",
+      "grade_level": "10th Grade",
+      "questions": [
+        {
+          "question_text": "What is the SI unit of force?",
+          "question_type": "multiple_choice",
+          "marks": 5,
+          "options": [
+            {"option_text": "Joule", "is_correct": false},
+            {"option_text": "Newton", "is_correct": true},
+            {"option_text": "Watt", "is_correct": false},
+            {"option_text": "Pascal", "is_correct": false}
+          ],
+          "explanation": "The Newton (N) is the SI unit of force, named after Sir Isaac Newton."
+        },
+        {
+          "question_text": "According to Newton's first law, an object at rest will:",
+          "question_type": "multiple_choice",
+          "marks": 5,
+          "options": [
+            {"option_text": "Remain at rest unless acted upon by a force", "is_correct": true},
+            {"option_text": "Accelerate continuously", "is_correct": false},
+            {"option_text": "Move at constant velocity", "is_correct": false},
+            {"option_text": "Decelerate gradually", "is_correct": false}
+          ],
+          "explanation": "Newton's first law states that objects at rest stay at rest unless acted upon by an unbalanced force."
+        },
+        {
+          "question_text": "The acceleration due to gravity on Earth is approximately:",
+          "question_type": "multiple_choice",
+          "marks": 5,
+          "options": [
+            {"option_text": "9.8 m/s²", "is_correct": true},
+            {"option_text": "10 m/s²", "is_correct": false},
+            {"option_text": "9.6 m/s²", "is_correct": false},
+            {"option_text": "8.9 m/s²", "is_correct": false}
+          ],
+          "explanation": "The standard acceleration due to gravity is 9.8 m/s² or 9.81 m/s²."
+        },
+        {
+          "question_text": "If a car travels 100 meters in 10 seconds, its average speed is:",
+          "question_type": "multiple_choice",
+          "marks": 10,
+          "options": [
+            {"option_text": "5 m/s", "is_correct": false},
+            {"option_text": "10 m/s", "is_correct": true},
+            {"option_text": "15 m/s", "is_correct": false},
+            {"option_text": "20 m/s", "is_correct": false}
+          ],
+          "explanation": "Average speed = distance/time = 100m/10s = 10 m/s"
+        },
+        {
+          "question_text": "The formula for kinetic energy is:",
+          "question_type": "multiple_choice",
+          "marks": 10,
+          "options": [
+            {"option_text": "KE = mv²", "is_correct": false},
+            {"option_text": "KE = ½mv²", "is_correct": true},
+            {"option_text": "KE = 2mv²", "is_correct": false},
+            {"option_text": "KE = m²v", "is_correct": false}
+          ],
+          "explanation": "Kinetic energy equals one-half times mass times velocity squared."
+        }
+      ]
+    },
+    {
+      "title": "English Literature - Reading Comprehension",
+      "description": "Test your understanding of literary devices, themes, and reading comprehension skills.",
+      "instructions": "Read the passages carefully before answering. Support your answers with evidence from the text. No outside materials allowed.",
+      "duration_minutes": 45,
+      "total_marks": 75,
+      "passing_marks": 45,
+      "subject": "English Literature",
+      "grade_level": "11th Grade",
+      "questions": [
+        {
+          "question_text": "In Shakespeare's Romeo and Juliet, the two feuding families are:",
+          "question_type": "multiple_choice",
+          "marks": 5,
+          "options": [
+            {"option_text": "Montagues and Capulets", "is_correct": true},
+            {"option_text": "Smiths and Jones", "is_correct": false},
+            {"option_text": "Hatfields and McCoys", "is_correct": false},
+            {"option_text": "Lancasters and Yorks", "is_correct": false}
+          ],
+          "explanation": "The Montagues and Capulets are the two feuding families in Romeo and Juliet."
+        },
+        {
+          "question_text": "What literary device is used in 'The wind whispered through the trees'?",
+          "question_type": "multiple_choice",
+          "marks": 5,
+          "options": [
+            {"option_text": "Metaphor", "is_correct": false},
+            {"option_text": "Personification", "is_correct": true},
+            {"option_text": "Simile", "is_correct": false},
+            {"option_text": "Alliteration", "is_correct": false}
+          ],
+          "explanation": "Personification gives human characteristics (whispering) to non-human things (wind)."
+        },
+        {
+          "question_text": "The main theme of George Orwell's '1984' is:",
+          "question_type": "multiple_choice",
+          "marks": 10,
+          "options": [
+            {"option_text": "Love and romance", "is_correct": false},
+            {"option_text": "Totalitarianism and surveillance", "is_correct": true},
+            {"option_text": "Adventure and exploration", "is_correct": false},
+            {"option_text": "Comedy and humor", "is_correct": false}
+          ],
+          "explanation": "1984 explores themes of totalitarian government control and constant surveillance."
+        }
+      ]
+    },
+    {
+      "title": "History Test - World War II",
+      "description": "Comprehensive examination of major events, causes, and consequences of World War II.",
+      "instructions": "Answer all questions in complete sentences. Provide specific dates and examples where possible. Use proper historical terminology.",
+      "duration_minutes": 75,
+      "total_marks": 120,
+      "passing_marks": 72,
+      "subject": "History",
+      "grade_level": "12th Grade",
+      "questions": [
+        {
+          "question_text": "World War II began in which year?",
+          "question_type": "multiple_choice",
+          "marks": 5,
+          "options": [
+            {"option_text": "1938", "is_correct": false},
+            {"option_text": "1939", "is_correct": true},
+            {"option_text": "1940", "is_correct": false},
+            {"option_text": "1941", "is_correct": false}
+          ],
+          "explanation": "World War II began on September 1, 1939, when Germany invaded Poland."
+        },
+        {
+          "question_text": "The D-Day invasion took place in:",
+          "question_type": "multiple_choice",
+          "marks": 10,
+          "options": [
+            {"option_text": "Normandy, France", "is_correct": true},
+            {"option_text": "Sicily, Italy", "is_correct": false},
+            {"option_text": "Calais, France", "is_correct": false},
+            {"option_text": "Dover, England", "is_correct": false}
+          ],
+          "explanation": "D-Day occurred on June 6, 1944, on the beaches of Normandy, France."
+        },
+        {
+          "question_text": "Which country was NOT part of the Axis powers?",
+          "question_type": "multiple_choice",
+          "marks": 5,
+          "options": [
+            {"option_text": "Germany", "is_correct": false},
+            {"option_text": "Italy", "is_correct": false},
+            {"option_text": "Japan", "is_correct": false},
+            {"option_text": "Soviet Union", "is_correct": true}
+          ],
+          "explanation": "The Soviet Union was part of the Allied powers, not the Axis powers."
+        }
+      ]
+    },
+    {
+      "title": "Computer Science - Programming Basics",
+      "description": "Introduction to fundamental programming concepts and terminology.",
+      "instructions": "Code examples are provided. Trace through the code carefully before answering. No external resources allowed.",
+      "duration_minutes": 50,
+      "total_marks": 80,
+      "passing_marks": 48,
+      "subject": "Computer Science",
+      "grade_level": "9th Grade",
+      "questions": [
+        {
+          "question_text": "Which of the following is a programming language?",
+          "question_type": "multiple_choice",
+          "marks": 5,
+          "options": [
+            {"option_text": "Microsoft Word", "is_correct": false},
+            {"option_text": "Python", "is_correct": true},
+            {"option_text": "Adobe Photoshop", "is_correct": false},
+            {"option_text": "Google Chrome", "is_correct": false}
+          ],
+          "explanation": "Python is a popular programming language used for various applications."
+        },
+        {
+          "question_text": "What does 'HTML' stand for?",
+          "question_type": "multiple_choice",
+          "marks": 5,
+          "options": [
+            {"option_text": "Home Text Markup Language", "is_correct": false},
+            {"option_text": "HyperText Markup Language", "is_correct": true},
+            {"option_text": "High Tech Modern Language", "is_correct": false},
+            {"option_text": "Hyperlink and Text Markup Language", "is_correct": false}
+          ],
+          "explanation": "HTML stands for HyperText Markup Language, used for creating web pages."
+        },
+        {
+          "question_text": "In programming, what is a variable?",
+          "question_type": "multiple_choice",
+          "marks": 10,
+          "options": [
+            {"option_text": "A fixed value that cannot change", "is_correct": false},
+            {"option_text": "A storage location with a name and value that can change", "is_correct": true},
+            {"option_text": "A type of computer virus", "is_correct": false},
+            {"option_text": "A programming error", "is_correct": false}
+          ],
+          "explanation": "A variable is a named storage location that can hold different values during program execution."
+        }
+      ]
+    }
+  ],
+  "test_categories": {
+    "by_subject": {
+      "Mathematics": ["Algebra", "Geometry", "Calculus", "Statistics"],
+      "Science": ["Physics", "Chemistry", "Biology", "Earth Science"],
+      "English": ["Literature", "Grammar", "Writing", "Reading Comprehension"],
+      "History": ["World History", "American History", "Ancient History", "Modern History"],
+      "Computer Science": ["Programming", "Algorithms", "Data Structures", "Web Development"]
+    },
+    "by_difficulty": {
+      "Beginner": "Basic concepts and fundamental knowledge",
+      "Intermediate": "Applied knowledge and problem-solving",
+      "Advanced": "Complex analysis and critical thinking"
+    },
+    "by_grade_level": {
+      "9th Grade": "High school freshman level",
+      "10th Grade": "High school sophomore level", 
+      "11th Grade": "High school junior level",
+      "12th Grade": "High school senior level"
+    }
+  },
+  "usage_notes": {
+    "test_creation": [
+      "Tests can be created by teachers and administrators",
+      "Each test should have clear instructions and time limits",
+      "Questions should be reviewed for accuracy before publishing",
+      "Consider providing explanations for educational value"
+    ],
+    "question_types": {
+      "multiple_choice": "Best for objective assessment with clear right/wrong answers",
+      "true_false": "Good for testing factual knowledge quickly",
+      "short_answer": "Allows for more detailed responses and partial credit"
+    },
+    "grading_system": {
+      "A": "90-100%",
+      "B": "80-89%", 
+      "C": "70-79%",
+      "D": "60-69%",
+      "F": "Below 60%"
+    }
+  }
+}
